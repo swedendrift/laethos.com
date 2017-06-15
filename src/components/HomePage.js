@@ -1,12 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router';
 
 const HomePage = () => {
 
-  
-
   return (
-    <div>
+    <div className="App">
         <div id="logo-name">
           LÆTHOS
         </div>
