@@ -36,6 +36,38 @@ body {
   font-weight: 100;
 }
 
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+=======
+>>>>>>> Stashed changes
+.pageTitle {
+  position: absolute;
+  left: 5vw;
+  
+}
+
+.create {
+  background-image: url('./images/odc.1@1x.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.innovate {
+  background-image: url('./images/innovate.1@1x.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.operate {
+  background-image: url('./images/operate.2@1x.png');
+  background-size: cover;
+  height: 100vh;
+  width: 100vw
+}
+
 #innovate:hover {
   content: url('./images/innovate.color.svg')
 }
