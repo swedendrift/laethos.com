@@ -1,41 +1,68 @@
-img {
-  vertical-align: middle;
+html:before,html:after,body:before,body:after{
+    content:"";
+    background:#000;
+    position:fixed;
+    display:block;
+    z-index:5;
+}
+
+html:before{
+    height:30px;
+    left:0;
+    right:0;
+    top:0;
+}
+html:after{
+    width:30px;
+    top:0;
+    right:0;
+    bottom:0;
+}
+body:before{
+    height: 30px;
+    right:0;
+    bottom:0;
+    left:0;
+}
+body:after{
+    width:30px;
+    top:0;
+    bottom:0;
+    left:0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: 'Lato:300', sans-serif;
-  background-color: #000000;
 }
 
 .App {
-  width: 94vw;
-  height: 92vh;
-  margin: 3% 1% 2% 3%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #FFFFFF;
 }
 
 .icon {
   display:inline-block;
   width: 10vw;
-  margin: 9vw;
+  margin: 0vw 10vw;
 }
 
 #icons {
-  position: absolute;
+  position: relative;
   top: 40vh;
-  left: 9vw;
+  left: 3vw;
 }
 
 #logo-name {
-  position: absolute;
-  top: 18vh;
-  left: 29%;
+  position: relative;
+  top: 20vh;
+  left: 28vw;
   font-size: 10vw;
   font-weight: 100;
 }
 
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 =======
@@ -45,6 +72,10 @@ body {
   position: absolute;
   left: 5vw;
   
+=======
+#pageTitle {
+
+>>>>>>> 6f3d7da154b6e59711eadc4b17676170f02fba5d
 }
 
 .create {
