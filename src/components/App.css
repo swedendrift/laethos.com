@@ -62,27 +62,9 @@ body {
   font-weight: 100;
 }
 
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-=======
->>>>>>> Stashed changes
 .pageTitle {
   position: absolute;
   left: 5vw;
-  
-=======
-#pageTitle {
-
->>>>>>> 6f3d7da154b6e59711eadc4b17676170f02fba5d
-}
-
-.create {
-  background-image: url('./images/odc.1@1x.png');
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
 }
 
 .innovate {
