@@ -70,9 +70,9 @@ body {
 
 .innovate {
   background-image: url('./images/innovate.1@1x.png');
-  background-size: cover;
-  /*height: 100vh;*/
-  /*width: 100vw;*/
+  background-size: cover; 
+  height: 100vh;
+  width: 100vw;
 }
 
 .create {
