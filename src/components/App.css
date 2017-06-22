@@ -70,23 +70,29 @@ body {
 
 .innovate {
   background-image: url('./images/innovate.1@1x.png');
-  background-size: cover; 
+  background-size: contain; 
   height: 100vh;
   width: 100vw;
 }
 
 .create {
   background-image: url('./images/create.1@1x.png');
-  background-size: cover;
-  /*height: 100vh;*/
-  /*width: 100vw*/
+  background-size: contain;
+  height: 100vh;
+  width: 100vw
 }
 
 .operate {
   background-image: url('./images/operate.2@1x.png');
-  background-size: cover;
-  /*height: 100vh;*/
-  /*width: 100vw*/
+  background-size: contain;
+  height: 100vh;
+  width: 100vw
+}
+
+#operateText {
+  position: absolute;
+  bottom: 20vh;
+  right: 20vw;
 }
 
 #innovate:hover {
