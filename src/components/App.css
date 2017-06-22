@@ -3,7 +3,7 @@ html:before,html:after,body:before,body:after{
     background:#000;
     position:fixed;
     display:block;
-    z-index:5;
+    z-index:500;
 }
 
 html:before{
@@ -66,6 +66,7 @@ body {
   position: absolute;
   top: 3vh;
   left: 5vw;
+  z-index: 110;
 }
 
 .innovate {
@@ -88,6 +89,44 @@ body {
   height: 100vh;
   width: 100vw
 }
+
+.operate::after {
+  content: "";
+  background: antiquewhite;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;   
+}
+
+.innovate::after {
+  content: "";
+  background: antiquewhite;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+}
+
+
+.create::after {
+  content: "";
+  background: antiquewhite;
+  opacity: 0.2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: 10;
+}
+
 
 #operateText {
   position: absolute;
