@@ -48,18 +48,13 @@ body {
   margin: 0vw 10vw;
 }
 
-#icons {
-  position: relative;
-  top: 40vh;
-  left: 3vw;
+.blur {
+  z-index: 100;
 }
 
-#logo-name {
+.logo {
   position: relative;
-  top: 20vh;
-  left: 28vw;
-  font-size: 10vw;
-  font-weight: 100;
+  top: 5vh;
 }
 
 .pageTitle {
@@ -89,6 +84,18 @@ body {
   height: 100vh;
   width: 100vw
 }
+
+.operate-blur {
+  background-image: url('./images/operate.2@1x.png');
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  -webkit-filter: blur(10px);
+  filter: url('/media/blur.svg#blur');
+  filter: blur(10px);
+  z-index: 99
+}
+
 
 .operate::after {
   content: "";
@@ -145,3 +152,17 @@ body {
 #operate:hover {
   content: url('./images/operate.color.svg')
 }
+
+#icons {
+  position: relative;
+  top: 40vh;
+  left: 3vw;
+}
+
+#logo-name {
+  position: relative;
+  top: 20vh;
+  left: 28vw;
+  font-size: 7vw;
+  font-weight: 100;
+}   
