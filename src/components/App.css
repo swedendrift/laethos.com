@@ -75,71 +75,16 @@ body {
   background-image: url('./images/create.1@1x.png');
   background-size: contain;
   height: 100vh;
-  width: 100vw
+  width: 100vw;
 }
 
 .operate {
   background-image: url('./images/operate.2@1x.png');
   background-size: contain;
   height: 100vh;
-  width: 100vw
-}
-
-.operate-blur {
-  background-image: url('./images/operate.2@1x.png');
-  background-size: contain;
-  height: 100vh;
   width: 100vw;
-  -webkit-filter: blur(10px);
-  filter: url('/media/blur.svg#blur');
-  filter: blur(10px);
-  z-index: 99
 }
 
-
-.operate::after {
-  content: "";
-  background: antiquewhite;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 10;   
-}
-
-.innovate::after {
-  content: "";
-  background: antiquewhite;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 10;
-}
-
-
-.create::after {
-  content: "";
-  background: antiquewhite;
-  opacity: 0.2;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: 10;
-}
-
-
-#operateText {
-  position: absolute;
-  bottom: 20vh;
-  right: 20vw;
-}
 
 #innovate:hover {
   content: url('./images/innovate.color.svg')
