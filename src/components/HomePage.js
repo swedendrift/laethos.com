@@ -1,5 +1,7 @@
 import React from 'react';
+import { changeTitle } from '../actions';
 import { Link } from 'react-router-dom';
+import { TitleText } from './TitleText';
 
 const HomePage = () => {
 
@@ -7,6 +9,9 @@ const HomePage = () => {
     <div className="App">
         <div id="logo-name">
           LÆTHOS
+        </div>
+        <div>
+          <TitleText />
         </div>
         <div id="icons">
           <Link to="/innovate"><img className="icon" id="innovate" src="./images/innovate.svg" alt="Innovate" /></Link>
