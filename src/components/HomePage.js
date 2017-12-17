@@ -1,7 +1,6 @@
 import React from 'react';
-import { changeTitle } from '../actions';
 import { Link } from 'react-router-dom';
-import { TitleText } from './TitleText';
+import TitleText from './TitleText';
 
 const HomePage = () => {
 

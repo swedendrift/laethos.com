@@ -13,6 +13,4 @@ const TitleText = ({ title }) => {
   );
 };
 
-module.exports = connect(mapStateToProps)(TitleText);
-
-export default TitleText;
+export default connect(mapStateToProps)(TitleText);
