@@ -69,6 +69,12 @@ body {
   width: 100vw;
 }
 
+.page {
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+}
+
 /*.operate {
   background-image: url('./images/operate.2@1x.png');
   background-size: contain;

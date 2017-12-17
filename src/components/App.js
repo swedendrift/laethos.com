@@ -6,13 +6,15 @@ import InnovatePage from './InnovatePage';
 import CreatePage from './CreatePage';
 import OperatePage from './OperatePage';
 
+import Page from './Page';
+
 const App = () => (
       <Router>
         <div>
           <Route exact path="/" component={HomePage}/>
-          <Route path="/innovate" component={InnovatePage}/>
-          <Route path="/create" component={CreatePage}/>
-          <Route path="/operate" component={OperatePage}/>
+          <Route path="/innovate" render={() => <Page pageName="innovate"/>}/>
+          <Route path="/create" render={() => <Page pageName="create"/>}/>
+          <Route path="/operate" render={() => <Page pageName="operate"/>}/>
         </div>
       </Router>      
  );
